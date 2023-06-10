@@ -1,5 +1,5 @@
-import { Chatserver  } from "./ChatServer.ts";
+import { ChatServer  } from "./ChatServer";
 
-let app = ChatServer().app;
+let app = new ChatServer().app;
 
 export { app }
